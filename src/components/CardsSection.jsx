@@ -3,7 +3,7 @@ import leftLines from '../assets/leftLines.png'
 import rightLines from '../assets/rightLines.png'
 import Regalia from '../assets/regalia.png'
 import AxisBank from '../assets/axisbank.png'
-import IndianOil from '../assets/indianOil.png'
+import IndianOil from '../assets/indianoil.png'
 import CreditCard from './CreditCard'
 
 export default function CardsSection() {
