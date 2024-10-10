@@ -1,0 +1,87 @@
+.lounge-upper h2{
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 100px;
+}
+.lounge-upper p{
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.lounge-wrapper{
+    padding-left: 110px;
+    padding-right: 110px;
+}
+.lounge-upper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lounge-upper button{
+    margin-top: 84px;
+    width: 328px;
+    height: 74px;
+    border-radius: 8px;
+    background: linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    
+    color: var(--brand-color);
+    font-size: 28px;
+    font-weight: 600px;
+    padding: 10px 18px 10px 18px;
+}
+.lounge-lower{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 115px;
+    gap: 20px;
+    align-items: center;
+    
+}
+.lounge-option-outer >div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    
+}
+.lounge-option-outer{
+    position: relative;
+}
+.lounge-option-outer >div img{
+    height: 124px;
+    width: 124px;
+}
+.lounge-name{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.lounge-location{
+    font-size: 24px;
+    font-weight: 500;
+    color: #b7b7b7;
+}
+.lounge-img{
+    margin-top: 70px;
+    width: 100%;
+}
+.bg-light{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 200px;
+    filter: blur(24px);
+}
+@media screen and (max-width: 1637px) {
+    .lounge-name {
+      font-size: 22px !important;
+  
+    }
+    .lounge-location{
+        font-size: 20px;
+    }
+}

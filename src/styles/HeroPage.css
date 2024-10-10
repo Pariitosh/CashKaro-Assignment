@@ -1,0 +1,117 @@
+.hero-wrapper {
+    height: 830px;
+    
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 120px;
+    border-bottom-right-radius: 120px;
+    background: radial-gradient(75.73% 238.9% at 100% 60.92%, rgba(46, 46, 46, 0) 54.75%, #1A1A1A 85.72%, #131313 100%) ;
+    box-shadow: #453421 0px 54px 55px, #453421 0px -12px 30px, #453421 0px 4px 6px, #453421 0px 12px 13px, #453421 0px -3px 5px;
+    border-bottom: 2px solid #f3ebd8;
+}
+body{
+    background-color: #0f0f0f;
+    overflow-x: hidden;
+}
+.hero-inner {
+    margin-left: 203px;
+}
+
+.hero-inner h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 98.4px;
+    text-align: left;
+    color: white;
+    width: 100%;
+
+}
+
+.hero-inner button {
+    width: 312px;
+    height: 74px;
+    margin-top: 32px;
+    font-size: 28px;
+    color: #E4C2A2;
+    border-radius: 8px;
+    background: linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    opacity: 1 !important;
+
+}
+
+.cards-wrapper {
+    padding-left: 116px;
+    padding-right: 116px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    transform: translateY(-50px);
+    
+}
+
+.card-outer {
+    display: grid;
+    place-items: center;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+.card-outer img{
+    width: 100%;
+    max-width: 200px;
+    
+}
+.hero-img{
+    position: absolute;
+    top: 22%;
+    left: 65%;
+    width: 30%;;
+}
+.card-heading {
+    font-family: 'Roboto Slab', serif;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52.8px;
+    text-align: center;
+    margin-top: 19px;
+    color: white;
+    
+}
+
+.card-details {
+    color: #B1B1B1;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 12px;
+    
+}
+
+.big-cards-outer{
+    width: 100%;
+    padding-left: 116px;
+    padding-right: 116px;
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+.big-cards-outer img{
+    width:24% ;
+}
+.hero-vid{
+    right: 0;
+    position: absolute;
+    height: 815px;
+    z-index: -1;
+    overflow: hidden;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+}
+@media screen and (max-width: 1637px) {
+    .hero-inner h2 {
+      font-size: 50px;
+  
+    }
+  }
