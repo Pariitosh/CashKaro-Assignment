@@ -44,7 +44,7 @@ export default function CompareSection() {
     return (
         <div className='compare-wrapper'>
             <h2>Compare Cards</h2>
-            <div className='video-wrapper' ref={wrapperRef}>
+            <div className='compare-video-wrapper' ref={wrapperRef}>
                 <img src={curve} alt='' className='upper-curve' />
                 <img src={curve} alt='' className='lower-curve' />
                 <img className='podium' src={podium} alt='' />

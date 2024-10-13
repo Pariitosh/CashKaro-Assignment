@@ -1,6 +1,6 @@
 .cards-upper div h2{
-    font-family: 'Roboto Slab', sans-serif;;
-font-size: 78px;
+    font-family: 'cirika', sans-serif;;
+font-size: var(--popular-credits);
 font-weight: 500;
 line-height: 93.6px;
 text-align: center;
@@ -11,8 +11,9 @@ margin-top: 60px;
 
 }
 .card-img{
-    border-radius: 8px;
-    border: 1px solid white;
+    border-radius: 17px;
+    border: 1px solid rgba(91, 91, 91, 1);
+    box-shadow: 0 24px 74px 0 rgba(0, 0, 0, 0.18);
 }
 .cards-upper {
     margin-top: 78px;
@@ -39,6 +40,8 @@ margin-top: 60px;
     background-color: black;
     border: none;
     border-radius: 6px;
+    font-size: 14px;
+    font-family: 'Poppins';
 }
 .cards-btn-outer button::before {
     content: '';
@@ -62,7 +65,13 @@ margin-top: 60px;
     border-radius: 6px; /* Same as the button */
     z-index: -1;
 }
-
+.cards-btn-outer button:focus::before,.cards-btn-outer button:hover::before{
+    background: white;
+}
+.cards-btn-outer button:focus,.cards-btn-outer button:hover{
+    color: black;
+    background-color: white;
+}
 .gradient-btn{
     border: none;
 }
@@ -89,11 +98,7 @@ margin-top: 60px;
     border-radius: 7px; /* Slightly smaller than the outer border */
     z-index: -1;
 }
-.cards-btn-outer button:focus,.cards-btn-outer button:hover{
-    background-color: white;
-    color: black;
-    border: 0px;
-}
+
 .left-lines,.right-lines{
     position: absolute;
 }
@@ -121,9 +126,9 @@ margin-top: 60px;
     flex-direction: column;
 }
 .card-title{
-    font-family: 'Poppins', sans-serif;;
-font-size: 30px;
-font-weight: 500;
+    font-family: 'cirika', sans-serif;;
+font-size: var(--card-title);
+font-weight: 700;
 line-height: 43.2px;
 text-align: left;
 margin-top: 28px;
@@ -152,18 +157,18 @@ margin-top: 28px;
     font-family: 'Poppins', sans-serif;;
 }
 .cashback-line{
-    font-size: 18px;
+    font-size: 26px;
     color: #b7b7b7;
     margin-top: 8px;
     font-weight: 400;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'cirika', sans-serif;;
 }
 .apply-now{
     color: var(--brand-color);
     font-weight: 500;
     font-size: 28px;
     margin-top: 19px;
-    font-family: 'Poppins', sans-serif;;
+    font-family: 'cirika', sans-serif;;
 }
 .arrow-icon{
     height: 15px;
@@ -175,15 +180,3 @@ margin-top: 28px;
     display: flex;
     gap: 13px;
 }
-@media screen and (max-width: 1637px) {
-    .card-heading {
-      font-size: 30px !important;
-  
-    }
-    .cards-upper div h2{
-        font-size: 50px;
-    }
-    .card-title{
-        font-size: 24px;
-    }
-  }

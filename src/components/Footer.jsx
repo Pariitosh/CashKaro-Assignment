@@ -14,8 +14,8 @@ export default function Footer(){
                 </div>
                 <p className='footer-about-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ultrices odio. Nulla at congue diam, at dignissim turpis. Ut vehicula sed velit a faucibus. In feugiat vestibulum velit vel pulvinar. Fusce id mollis ex. </p>
                 <div className='footer-btns'>
-                    <button className=''><img src={appStore} alt=''/>APP STORE</button>
-                    <button className=''><img src={playStore} alt=''/>GOOGLE PLAY</button>
+                    <button className='figma-button'><img src={appStore} alt=''/>APP STORE</button>
+                    <button className='figma-button'><img src={playStore} alt=''/>GOOGLE PLAY</button>
                 </div>
                 <hr/>
                 <p className='footer-about-2'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

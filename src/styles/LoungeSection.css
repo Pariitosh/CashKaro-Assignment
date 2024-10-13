@@ -1,15 +1,15 @@
 .lounge-upper h2{
-    font-size: 70px;
+    font-size: 96px;
     font-weight: 500;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cirika', sans-serif;
     margin-top: 100px;
 }
 .lounge-upper p{
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 500;
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cirika', sans-serif;
 }
 .lounge-wrapper{
     padding-left: 110px;
@@ -21,18 +21,7 @@
     align-items: center;
     flex-direction: column;
 }
-.lounge-upper button{
-    margin-top: 84px;
-    width: 328px;
-    height: 74px;
-    border-radius: 8px;
-    background: linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
-    
-    color: var(--brand-color);
-    font-size: 28px;
-    font-weight: 600px;
-    padding: 10px 18px 10px 18px;
-}
+
 .lounge-lower{
     display: flex;
     color: white;
@@ -56,14 +45,16 @@
     width: 124px;
 }
 .lounge-name{
-    font-size: 30px;
+    font-size: var(--lounge-name);
     font-weight: 700;
     color: white;
+    font-family: 'cirika';
 }
 .lounge-location{
     font-size: 24px;
     font-weight: 500;
     color: #b7b7b7;
+    font-family: 'cirika'
 }
 .lounge-img{
     margin-top: 70px;
@@ -71,17 +62,61 @@
 }
 .bg-light{
     width: 100%;
-    position: absolute;
+position: absolute;
     left: 0;
     bottom: 200px;
     filter: blur(24px);
 }
-@media screen and (max-width: 1637px) {
-    .lounge-name {
-      font-size: 22px !important;
+.figma-button {
+    position: relative;
+     /* Adjust as needed */
+    border: none;
+    border-radius: 6px; /* Adjust the radius as needed */
+    background: linear-gradient(200.74deg, rgba(214, 211, 194, 0.2) 0%, rgba(92, 92, 92, 0.14) 100%);
+    backdrop-filter: blur(30.2px);
+    color: white; /* Adjust text color as needed */
+    cursor: pointer;
+    overflow: hidden;
+  }
   
-    }
-    .lounge-location{
-        font-size: 20px;
-    }
+  .figma-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    padding: 2px; /* This creates the border width */
+    background: linear-gradient(200.74deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    -webkit-mask: 
+      linear-gradient(#fff 0 0) content-box, 
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+  
+  .figma-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset -3.49px -2.16px 5.65px 0px rgba(250, 250, 250, 0.22);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+.lounge-btn{
+    color: #f4d8b3;
+    height: 74px;
+    width: 328px;
+    padding: 10px 18px;
+    font-size: 28px;
+    font-family: 'cirika';
+    margin-top: 60px;
+    font-weight: 600;
 }
+
+

@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: 'cirika';
+  src: url('/src/assets/cirika.ttf') format('truetype');
+  font-weight: normal; /* Specify the font weight (normal, bold, etc.) */
+  font-style: normal;  /* Specify the font style (normal, italic, etc.) */
+}
 *{
   margin: 0;
   padding: 0;
@@ -9,7 +15,17 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 :root{
-  --brand-color:#E4C2A2
+  --brand-color:#E4C2A2;
+  --nav-height:80px;
+  --hero-font:55px;
+  --card-heading:44px;
+  --card-details:22px;
+  --popular-credits:78px;
+  --card-title:36px;
+  --lounge-name:42px;
+  --tata-right:24px;
+  --tata-heading:70px;
+  --tata-desig:50px;
 }
 button:hover{
   cursor: pointer;
@@ -18,3 +34,77 @@ button{
   min-width: fit-content;
 }
 
+/* Font typography for responsive font-sizes */
+
+@media screen and (max-width: 1920px) {
+  :root{
+    --hero-font:55px
+  }
+}
+
+@media screen and (max-width: 1800px) {
+  :root{
+    --hero-font:55px
+  }
+}
+@media screen and (max-width: 1700px) {
+  :root{
+    --hero-font:50px;
+    --card-heading:40px;
+    --card-details:20px;
+    --lounge-name:38px;
+    --tata-right:22px;
+    --tata-desig:40px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  :root{
+    --hero-font:45px;
+    --card-heading:35px;
+    --card-title:32px;
+    --lounge-name:34px;
+    --tata-heading:60px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  :root{
+    --hero-font:40px;
+    --card-details:18px;
+    --popular-credits:70px;
+    --card-title:30px;
+    --lounge-name:27px;
+    --tata-right:20px;
+    --tata-desig:34px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  :root{
+    --hero-font:35px;
+    --card-heading:32px;
+    --card-details:16px;
+    --popular-credits:60px;
+    --card-title:28px;
+    --lounge-name:27px;
+    --tata-heading:50px;
+    
+  }
+  .t-line2{
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 1300px) {
+  :root{
+    --hero-font:30px;
+    --card-heading:28px;
+    --card-details:14px;
+    --card-title:26px;
+    
+  }
+}
+@media screen and (max-width: 1200px) {
+  :root{
+    --hero-font:25px;
+    --card-heading:24px;
+    --popular-credits:50px;
+  }
+}

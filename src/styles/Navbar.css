@@ -1,5 +1,5 @@
 nav {
-    height: 80px;
+    height: var(--nav-height);
     background: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(124px);
     display: flex;
@@ -7,12 +7,27 @@ nav {
     position: fixed;
     width: 100%;
     z-index: 999;
-    border: 1.33px solid;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.294);
     
 
 }
+.nav-border{
+    border: 1.33px solid transparent;
+  background-clip: padding-box;
+  position: relative;
+}
+.nav-border::before{
+    content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1.33px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 
+}
 .nav-inner {
     display: flex;
     justify-content: space-between;

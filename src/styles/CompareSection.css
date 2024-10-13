@@ -26,7 +26,7 @@
 
 }
 
-.video-wrapper{
+.compare-video-wrapper{
     position: relative;
 }
 .upper-curve{
@@ -58,7 +58,7 @@
     color: white;
     width: 60%;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'cirika', sans-serif;
 }
 .test{
     height: 87px;

@@ -3,6 +3,7 @@ import avatar from '../assets/signin-avatar.png'
 import chevron from '../assets/chevron.png'
 export default function Navbar(){
     return(
+        <>
         <nav>
         <div className='nav-inner'>
             <h1><span>BANK</span>KARO</h1>
@@ -17,6 +18,9 @@ export default function Navbar(){
                 <img src={avatar} alt=''/>
             </div>
         </div>
+        
         </nav>
+        <div className='nav-border'></div>
+        </>
     )
 }

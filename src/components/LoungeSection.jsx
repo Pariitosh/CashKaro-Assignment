@@ -12,7 +12,8 @@ export default function LoungeSection() {
             <div className="lounge-upper">
                 <h2>Lounge Finder</h2>
                 <p>Check which lounges you can access at a click!</p>
-                <button>Try Lounge Finder</button>
+                <button className='figma-button lounge-btn'><span>Try Lounge Finder</span></button>
+
             </div>
 
             <div className='lounge-lower'>

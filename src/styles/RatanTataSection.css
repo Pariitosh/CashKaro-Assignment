@@ -1,62 +1,86 @@
+
 .tata-video{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    
+    height: 100%;
+    object-fit: cover;
 }
-.ratan-tata-wrapper{
-    position: relative;
-    width: 100%;
-   
-}
+
 footer{
     position: relative;
 }
-.ratan-tata-wrapper >p{
+.tata-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    
+    text-align: center;
+}
+.t-line1{
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
     font-size: 34px;
+    font-family: 'cirika', sans-serif;
     font-weight: 700;
-    line-height: 31px;
-    position: absolute;
-    left: 50%;
-    top: 100px;
-    transform: translate(-50%);
+}
+.t-line2{
     width: 100%;
     text-align: center;
-}
-.ratan-tata-wrapper h2{
-    font-size: 70px;
+    font-size: 90px;
+    font-family: 'cirika', sans-serif;
     font-weight: 700;
-    line-height: 80px;
-    width: 100%;
+}
+.tata-about-wrapper{
+    display: flex;
+    width: 83%;
+    margin-top: 8%;
+    justify-content: space-between;
+}
+.tata-heading{
+    font-size: var(--tata-heading);
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 130px;
-    transform: translate(-50%);
+    font-family: 'cirika', sans-serif;
+    font-weight: 600;
 }
-.ratan-tata-wrapper span{
-    color: var(--brand-color);
+.tata-desig{
+    font-size: var(--tata-desig);
+    color:  #c3ac8f;
+    text-align: center;
+    font-family: 'cirika', sans-serif;
+    font-weight: 600;
 }
-.tata-inner >p{
-    font-size: 24px;
-    width: 30%;
-    right:-10%;
-    top: 40%;
-    transform: translate(-50%,50%);
-    position: absolute;
+.tata-wrapper{
+    position:relative;
+    width: 100%;
+    height: 0;
+    padding-bottom:56.25%;
+    overflow: hidden;
 }
-.tata-inner >div{
-    width: 40%;
-    left: 20%;
-    top: 40%;
-    transform: translate(-50%,50%);
-    position: absolute;
+.tata-wrapper-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.tata-right{
+    width: 27.5%;
+    text-align: center;
+    font-size: var(--tata-right);
+    font-weight: 500;
+}
+.t-line2 span{
+    color:  #c3ac8f;
 }
 
-.tata-inner{
-    position: absolute;
-    width: 100%;
-   
-    height: 100%;
-}
+
+
+
 .tata-avatar{
     position: absolute;
     top: 45%;
@@ -80,3 +104,6 @@ footer{
     text-align: center;
 
 }
+
+/* avatar */
+
