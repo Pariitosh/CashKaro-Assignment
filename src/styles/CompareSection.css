@@ -66,20 +66,21 @@
     background: linear-gradient(229.68deg, #C68B4A -71.31%, #FEE0AE 86.16%);
     border: none;
     position: relative;
-    border-radius: 30px;
+    border-radius: 38px;
     font-size: 22px;
     font-weight: 600;
     border: 0px;
     margin-top: 48px;
     transition: 0.2s;
 }
+
 .test::before{
     content: '';
     position: absolute;
-    top: 10px;
+    top: 12px;
     height: 60px;
     width: 60px;
-    background-color: #daad75;
+    background-color: #fee0ae;
     left: 0px;
     border-radius: 8%;
     transform: rotate(45deg);
@@ -88,10 +89,10 @@
 .test::after{
     content: '';
     position: absolute;
-    top: 10px;
+    top: 12px;
     height: 60px;
     width: 60px;
-    background-color: #daad75;
+    background-color: #e2b67c;
     left: 340px;
     border-radius: 8%;
     transform: rotate(45deg);
@@ -119,9 +120,10 @@
     transition: 0.2s;
 }
 .btn-wrapper.clicked .test {
+    
    transition: 0.2s;
-   box-shadow: #daad75 0px 5px 5px, #daad75 0px -12px 30px, #daad75 0px 4px 6px, #daad75 0px 12px 13px, #daad75 0px -3px 5px;
-}
+   box-shadow: 0px 4px 54px 0px rgba(227, 187, 138, 0.4);
+   }
 .btn-wrapper{
     position: relative;
     

@@ -22,6 +22,7 @@ export default function Footer(){
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
             </div>
             <div className="footer-right">
+                
                 <div className='footer-submenu'>
                     <p>COMPANY</p>
                     <ul>
@@ -49,6 +50,8 @@ export default function Footer(){
                         <li>Compare Cards</li>
                     </ul>
                 </div>
+
+
                 <div className='footer-submenu'>
                     <p>CONTACT</p>
                     <ul>

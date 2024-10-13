@@ -11,23 +11,18 @@ nav {
 
 }
 .nav-border{
+    width:100%;
+  height:6px;
+  position: fixed;
+  margin-top: 100px;
     border: 1.33px solid transparent;
-  background-clip: padding-box;
-  position: relative;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  margin-top: 76px;
+  z-index: 10;
 }
-.nav-border::before{
-    content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  margin: -1.33px;
-  border-radius: inherit;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 50%, rgba(255, 255, 255, 0) 100%);
 
-}
 .nav-inner {
     display: flex;
     justify-content: space-between;

@@ -22,6 +22,7 @@ export default function HeroPage() {
                 <video autoPlay muted loop className="hero-vid">
                     <source src="abstract-video.mp4" type="video/mp4" />
                 </video>
+                
             </div>
 
             <div className='cards-wrapper'>

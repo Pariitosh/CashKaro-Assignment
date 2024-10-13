@@ -1,7 +1,9 @@
 import '../styles/RatanTataSection.css'
 import '../App.css'
-import RatanTataAvatar from '../assets/tata-img.png'
-
+import RatanTataAvatar from '../assets/test2.png'
+import bg from '../assets/avatar-bg.png'
+import Vector1 from '../assets/vector1.png'
+import Vector2 from '../assets/vector2.png'
 export default function RatanTataSection() {
     return (
         <div className='tata-wrapper' >
@@ -22,6 +24,13 @@ export default function RatanTataSection() {
                     </div>
                 </div>
             </div>
+            <img src={RatanTataAvatar} className='tata-image'/>
+            <img src={Vector1} alt='' className='vector-img'/>
+            <img src={Vector2} alt='' className='vector-img'/>
+
         </div>
     )
 }
+/* Mask group */
+
+

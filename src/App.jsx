@@ -15,6 +15,7 @@ function App() {
     <>
     
     <Navbar/>
+    
     <HeroSection/>
     
     <CardsSection/>

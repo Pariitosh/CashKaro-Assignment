@@ -7,6 +7,7 @@
     background: radial-gradient(75.73% 238.9% at 100% 60.92%, rgba(46, 46, 46, 0) 54.75%, #1A1A1A 85.72%, #131313 100%);
     box-shadow: 0px -52px 250px 0px rgba(217, 155, 83, 1);
     position: relative;
+    border-bottom: 1px solid #f3ebd8;
 }
 .hero-content{
     position: absolute;
@@ -21,7 +22,7 @@
     line-height: 98.4px;
 }
 .hero-image{
-    margin-top: 194px;
+    margin-top: 194px ;
     position: absolute;
     right: 190px;
 }
@@ -56,6 +57,15 @@
 
 }
 
-/* RECTANGLE */
-/* abstract-black-stylish-background-2024-07-25-18-18-28-utc 1 */
-
+@media screen and (max-width: 1600px) {
+    
+    .hero-image{
+      height: 300px;
+      right: 128px ;
+      margin-top: 254px;
+    }
+    .hero-wrap video{
+      right: -390px !important;
+  
+    }
+  }

@@ -161,7 +161,8 @@ margin-top: 28px;
     color: #b7b7b7;
     margin-top: 8px;
     font-weight: 400;
-    font-family: 'cirika', sans-serif;;
+    font-family: 'cirika', sans-serif;
+    width: 80%;
 }
 .apply-now{
     color: var(--brand-color);
